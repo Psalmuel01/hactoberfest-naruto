@@ -16,7 +16,7 @@ const Home = () => {
       </main>
       <Contributors />
       <Footer />
-      <audio src="./sound/naruto.mp3"></audio>
+      {/* <audio src="./sound/naruto.mp3"></audio> */}
     </div>
   );
 };
