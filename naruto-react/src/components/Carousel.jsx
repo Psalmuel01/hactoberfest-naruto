@@ -17,7 +17,7 @@ const Carousel = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="../../public/Images/123456.jpg"
+            src="../../Images/123456.jpg"
             className="radius d-block"
             alt="..."
           />
@@ -27,14 +27,14 @@ const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="../../public/Images/377922.jpg"
+            src="../../Images/377922.jpg"
             className="radius d-block"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="../../public/Images/123456.jpg"
+            src="../../Images/123456.jpg"
             className="radius d-block"
             alt="..."
           />

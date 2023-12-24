@@ -1,15 +1,14 @@
 import Search from "./Search";
-import Translate from "./Translate";
 import "./translate";
 import "./translate.css";
 
 const Header = () => {
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement(
-      { pageLanguage: "en" },
-      "google_translate_element"
-    );
-  }
+  // function googleTranslateElementInit() {
+  //   new google.translate.TranslateElement(
+  //     { pageLanguage: "en" },
+  //     "google_translate_element"
+  //   );
+  // }
   return (
     <header>
       <nav className="navbar fixed-top navbar-expand-lg navbar-light">
@@ -74,13 +73,13 @@ const Header = () => {
             {/* </ul> */}
             {/* </div> */}
             {/* fix translate js */}
-            <li className="nav-item mx-4">
+            {/* <li className="nav-item mx-4">
               <div id="google_translate_element"></div>
-              {/* <script src="./translate.js"></script> */}
+              {/* <script src="./translate.js"></script>
               <script type="text/javascript">
                 {googleTranslateElementInit()}
               </script>
-            </li>
+            </li> */}
             {/* <Translate /> */}
           </ul>
         </div>
